@@ -1,3 +1,5 @@
+import fetch from 'isomorphic-fetch'
+
 export const SELECT_CATEGORY = 'SELECT_CATEGORY'
 export const REQUEST_NEWS_ITEMS = 'REQUEST_NEWS_ITEMS'
 export const RECEIVE_NEWS_ITEMS = 'RECEIVE_NEWS_ITEMS'
