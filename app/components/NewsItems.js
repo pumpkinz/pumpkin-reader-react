@@ -9,7 +9,9 @@ export default class NewsItems extends Component {
     return (
       <View>
         {
-          this.props.newsItems.map((newsItem, i) => <Text key={i}>{newsItem.title}</Text>)
+          this.props.newsItems.map(
+            (newsItem, i) => <Text key={i} style={{marginTop: 8}}>{newsItem.title}</Text>
+          )
         }
       </View>
     )

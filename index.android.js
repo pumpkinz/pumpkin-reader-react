@@ -1,30 +1,20 @@
 import React, { Component } from 'react'
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native'
+import { Provider } from 'react-redux';
+import configureStore from './app/store/configureStore'
+import PumpkinReaderReactApp from './app/containers/pumpkinReaderReactApp';
 
-import App from './app/containers/app'
+import { AppRegistry } from 'react-native'
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
+const store = configureStore()
+
+export default class App extends Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <PumpkinReaderReactApp />
+      </Provider>
+    );
+  }
+}
 
 AppRegistry.registerComponent('PumpkinReaderReact', () => App);
