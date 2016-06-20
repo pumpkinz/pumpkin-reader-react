@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.9.1",
-    "isomorphic-fetch": "^2.2.1",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-native": "0.27.2",
