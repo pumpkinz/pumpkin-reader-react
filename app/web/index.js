@@ -2,8 +2,8 @@ import 'babel-polyfill'
 import React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
-import configureStore from './app/store/configureStore'
-import PumpkinReaderReactApp from './app/web/containers/pumpkinReaderReactApp';
+import configureStore from '../store/configureStore'
+import PumpkinReaderReactApp from './containers/pumpkinReaderReactApp';
 
 const store = configureStore()
 

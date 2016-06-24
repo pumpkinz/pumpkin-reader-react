@@ -10,7 +10,7 @@ export default class NewsItems extends Component {
       <View>
         {
           this.props.newsItems.map(
-            (newsItem, i) => <Text key={i} style={{marginTop: 8}}>{newsItem.title}</Text>
+              (newsItem, i) => <Text key={i} style={{marginTop: 8}}>{newsItem.title}</Text>
           )
         }
       </View>

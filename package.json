@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "start-web": "node server.js"
+    "web-start": "node app/web/server.js",
+    "web-bundle": "webpack -p --config webpack.prod.config.js --progress --profile --colors"
   },
   "dependencies": {
     "babel-polyfill": "^6.9.1",
