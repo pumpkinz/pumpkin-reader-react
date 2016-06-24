@@ -24,16 +24,18 @@ $ npm run-script web-start
 $ npm run-script web-bundle
 ```
 
-#### Screenshots
-![Read more words!](images/android.png)
-
-![Read more words!](images/web.png)
-
 #### Code reusability
 Actions (47) + Reducers (46) + Store (17) = 110 lines
 
 Android view: container (116) + component (24) = 140 lines
+
 Web view: container (66) + component (20) + HTML (12) = 98 lines
 
 Android reusability: 110 / 250 = 44%
+
 Web reusability: 110 / 208 = 52%
+
+#### Screenshots
+<img src="images/android.png" alt="Android screenshot" width="300">
+
+<img src="images/web.png" alt="Web screenshot" width="300">
