@@ -36,6 +36,8 @@ Android reusability: 110 / 250 = 44%
 Web reusability: 110 / 208 = 52%
 
 #### Screenshots
+##### Android
 <img src="images/android.png" alt="Android screenshot" width="300">
 
+##### Web
 <img src="images/web.png" alt="Web screenshot" width="300">
