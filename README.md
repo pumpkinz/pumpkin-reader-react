@@ -5,6 +5,8 @@ We try to reuse the code as many as possible.
 
 The functionality is far from complete. Currently, it can only show 10 news title.
 
+--
+
 #### How to run
 ##### Android
 ```sh
@@ -24,6 +26,8 @@ $ npm run-script web-start
 $ npm run-script web-bundle
 ```
 
+--
+
 #### Code reusability
 Actions (47) + Reducers (46) + Store (17) = 110 lines
 
@@ -34,6 +38,8 @@ Web view: container (66) + component (20) + HTML (12) = 98 lines
 Android reusability: 110 / 250 = 44%
 
 Web reusability: 110 / 208 = 52%
+
+--
 
 #### Screenshots
 ##### Android
