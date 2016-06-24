@@ -8,10 +8,10 @@ The functionality is far from complete. Currently, it can only show 10 news titl
 #### How to run
 ##### Android
 ```sh
-// run android emulator or connect a device
+// First, launch an Android emulator or connect an Android device
 $ react-native run-android
 
-// when you run on device
+// when you run on an Android device
 $ adb reverse tcp:8081 tcp:8081
 ```
 
