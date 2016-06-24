@@ -3,7 +3,7 @@ This is our attempt to develop Pumpkin Reader using [React](https://facebook.git
 
 We try to reuse the code as many as possible.
 
-The functionality is far from complete. Currently, it can only show 10 news title.
+The functionality is far from complete. Currently, it can only show 10 news title (Yes, only the title. You can not even click on it to view the comments).
 
 --
 
